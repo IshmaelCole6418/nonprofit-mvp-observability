@@ -1,0 +1,12 @@
+{
+  "name": "nonprofit-mvp-observability",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-strip-types src/receipt_service.ts",
+    "test": "node --experimental-strip-types --test src/receipt_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.25.0" },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.7.0" }
+}
